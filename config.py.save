@@ -1,0 +1,18 @@
+# config.py
+
+# Telegram
+TELEGRAM_BOT_TOKEN = '7921337059:AAE5yilRWx0a9U3iCMMqnaM5eGxDBrT18Lg'  # Токен от BotFather
+TELEGRAM_CHANNEL = '@crashbotcopy'         # Имя канала
+
+# Bybit API (временно один бот, потом добавишь другие)
+BYBIT_API_KEY = 'QJI6LGyqe9h2ncAenV'
+BYBIT_SECRET_KEY = 'EQdPGSc5GvEAYEmrXh8BAmoCemwJWD7DQ0S8'
+
+# PostgreSQL
+DB_CONFIG = {
+    'dbname': 'stata',
+    'user': 'postgres',
+    'password': '1tnX2QXS6N8hClOr',
+    'host': '@localhost',
+    'port': 5432
+}
